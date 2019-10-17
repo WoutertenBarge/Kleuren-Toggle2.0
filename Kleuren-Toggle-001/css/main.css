@@ -1,0 +1,17 @@
+/* navigatie incl plaatje*/
+.menu {
+  width: 100%;
+  height: 50px;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+
+/* grootte van het plaatje */
+.Menu-plaatje {
+  height: 100%;
+}
+
+/*navigatie zonder plaatje dus de kleuren*/
+.navigatie {
+  padding-top: 70px;
+}
