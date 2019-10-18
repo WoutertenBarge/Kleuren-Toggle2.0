@@ -12,12 +12,12 @@
 }
 
 /*navigatie zonder plaatje dus de kleuren*/
-.navigatie {
+#navigatie {
   padding-top: 70px;
   text-transform: uppercase;
   font-size: 25px;
 }
 
-.navigatie ul li {
+#navigatie ul li {
   list-style: none;
 }

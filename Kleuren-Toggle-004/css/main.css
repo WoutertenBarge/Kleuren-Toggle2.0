@@ -16,8 +16,15 @@
   padding-top: 70px;
   text-transform: uppercase;
   font-size: 25px;
+
+  max-height: 30px; /* dus nu is de tekst niet te zien, overflow hidden */
+  overflow: hidden;
 }
 
 .navigatie ul li {
   list-style: none;
+}
+
+.navigatie.open {
+  max-height: 400px; /* wanneer navigatie open, dan 400px naar beneden en wordt menu zichtbaar */
 }

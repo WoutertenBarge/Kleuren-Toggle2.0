@@ -1,0 +1,36 @@
+/* navigatie incl plaatje*/
+#menu {
+  width: 100%;
+  height: 50px;
+  padding-left: 40px;
+  padding-top: 25px;
+}
+
+/* grootte van het plaatje */
+.Menu-plaatje {
+  height: 100%;
+}
+
+/*navigatie zonder plaatje dus de kleuren*/
+#navigatie {
+  padding-top: 70px;
+  text-transform: uppercase;
+  font-size: 25px;
+
+  /*
+  max-height: 30px; 
+  overflow: hidden; dus nu is de tekst niet te zien, overflow hidden */
+}
+
+#navigatie ul li {
+  list-style: none;
+}
+
+#lijst {
+  max-height: 5px; /* dus nu is de tekst niet te zien, overflow hidden */
+  overflow: hidden;
+}
+
+#lijst.open {
+  max-height: 1000px; /* wanneer navigatie open, dan 400px naar beneden en wordt menu zichtbaar */
+}

@@ -45,13 +45,21 @@ silver.addEventListener("click", function(veranderAchterGrond) {
   body.style.backgroundColor = "silver";
 });
 
-document.getElementById("menu");
-//console.log("menu");
+var navigatie = document.getElementById("navigatie");
+console.log("navigatie");
 
+var lijst = document.getElementById("lijst");
+console.log("lijst");
+
+var menu = document.getElementById("menu");
+//console.log("menu");
 menu.addEventListener("click", function(aanUit) {
   console.log(aanUit.target);
   console.log(aanUit);
 
-  //wat moet er gebeuren wanner ik erop klik, dan
-  //menu open
+  if (lijst.style.display == "block") {
+    lijst.style.display = "none";
+  } else {
+    lijst.style.display = "block";
+  }
 });
